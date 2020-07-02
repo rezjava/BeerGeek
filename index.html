@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/home/ubuntu/Desktop/js/stile.css">
+    <script src="/home/ubuntu/Desktop/js/app.js"></script>
+
+    <title>My Web Site</title>
+    <!-- <style>
+        ul#menu li {
+            display: inline;
+        }
+    </style> -->
+
+</head>
+
+<body>
+    <p>
+        <h1>Настоящее зерновое пиво</h1>
+
+    </p>
+
+    <form method="post" autocomplete="off" action="http://localhost:8080/login.php">
+
+        <input type="submit" value="Войти" />
+    </form>
+    <p></p>
+    <a href="https://www.homebrewing.org/" target="_blank">
+        <img src="http://craftbeerwhiz.com/wp-content/uploads/2018/06/how-to-brew-beer.jpg" alt="home brewing">
+        <br></a>
+
+    <p><input type="radio" value="пиво" name="beer">выбор пива
+    </p>
+    <p> <input type="radio" value="квас" name="beer">выбор кваса
+    </p>
+    <form>
+        <p><input type="text" name="login" placeholder="your login" size="14" /></p>
+        <p><input type="password" name="password" placeholder="your password" size="14" /></p>
+        <p>
+            <button type="submit" formmethod="get" formaction="index.html">Отправить</button>
+            <button type="reset">Отмена</button>
+
+        </p>
+        <p>
+            <label for="login">Телефон: </label>
+            <input type="text" id="login" name="login" />
+        </p>
+    </form>
+
+</body>
+
+</html>
