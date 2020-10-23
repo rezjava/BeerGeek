@@ -1,7 +1,14 @@
 body {
-    background-color: rgb(121, 121, 22);
+    #bg position: fixed;
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    min-width: 100%;
+    min-height: 100%;
 }
 
 h1 {
-    color: blue;
+    color: saddlebrown;
+    size: 5cm;
+    font-style: italic;
 }
