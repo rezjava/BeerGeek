@@ -1,3 +1,17 @@
-main {
-    background-color: rgba(102, 150, 101, 0.062);
+#header {
+    height: 60px;
+    background-color: rgb(0, 0, 0);
+}
+
+#bg {
+    top: 0;
+    left: 0;
+    /* Preserve aspet ratio */
+    max-width: 100%;
+    max-height: auto;
+}
+
+#footer {
+    height: 120px;
+    background-color: rgb(0, 0, 0);
 }
